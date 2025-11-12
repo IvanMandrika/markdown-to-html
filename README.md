@@ -1,25 +1,25 @@
 # Markdown to HTML Converter (md2html)
 
-Этот проект представляет собой конвертер из Markdown-разметки в HTML, написанный на Java, с использованием ООП. Конвертер поддерживает основные элементы Markdown, такие как заголовки, абзацы, выделение текста, зачеркивание, вставку кода и другие.
+This project is a Markdown to HTML converter written in Java, utilizing object-oriented principles. The converter supports basic Markdown elements such as headings, paragraphs, text emphasis, strikethrough, inline code, and more.
 
-## Возможности
+## Features
 
-- **Абзацы текста**: Разделяются пустыми строками.
-- **Строчная разметка**:
-  - Выделение: `*текст*` или `_текст_`
-  - Сильное выделение: `**текст**` или `__текст__`
-  - Зачеркивание: `--текст--`
-  - Вставка кода: `` `код` ``
-- **Заголовки**: Поддерживаются заголовки с уровнями от 1 до 6 (`#`, `##`, `###`, и т.д.).
-- **Многострочные заголовки**: Заголовки могут быть многострочными.
-- **Экранирование специальных символов**: Экранирование символов `<`, `>`, и `&` в HTML.
-- **Дополнительная фича**: Поддержка блоков кода с использованием тройных кавычек ``` ``` ```.
+- **Text paragraphs**: Separated by empty lines.
+- **Inline formatting**:
+  - Emphasis: `*text*` or `_text_`
+  - Strong emphasis: `**text**` or `__text__`
+  - Strikethrough: `--text--`
+  - Inline code: `` `code` ``
+- **Headings**: Supports headings from level 1 to 6 (`#`, `##`, `###`, etc.).
+- **Multiline headings**: Headings can span multiple lines.
+- **Escaping special characters**: Proper escaping of `<`, `>`, and `&` in HTML.
+- **Extra feature**: Code block support using triple backticks `` ``` ``.
 
-## Использование
+## Usage
 
-Конвертер называется `md2html.Md2Html` и принимает два аргумента:
+The converter is called `md2html.Md2Html` and takes two arguments:
 
-1. Название входного файла с Markdown-разметкой.
-2. Название выходного файла с HTML-разметкой.
+1. Name of the input file with Markdown markup.
+2. Name of the output file for the resulting HTML.
 
-Оба файла должны быть в кодировке UTF-8.
+Both files must use UTF-8 encoding.
